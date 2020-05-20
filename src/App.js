@@ -129,8 +129,8 @@ export default function App() {
         >
           <Grid item xs={1} sm={1} container justify="space-between"  className={classes.topBar}>
                 <Grid item xs={12}  className={classes.grid} >
-                <Paper className={classes.background} elevation={5}>
-                  <TopBar />
+                  <Paper className={classes.background} elevation={5}>
+                    <TopBar />
                   </Paper>
                 </Grid>
                 
@@ -140,29 +140,35 @@ export default function App() {
                     <Grid item xs={12} >
                       <Paper className={classes.paper}>
                       <TabPanel value={value} index={0} className={classes.grid}>
-                      <Paper className={classes.paper}>
-                          Page One
-                          </Paper>
+                        <Paper className={classes.paper}>
+                          Home Page
+                          {/* <Home/> */}
+                        </Paper>
                       </TabPanel>
                       <TabPanel value={value} index={1}>
-                      <Paper className={classes.paper}>
-                          Page Two
-                          </Paper>
+                        <Paper className={classes.paper}>
+                          Search a Spot
+                          {/* <Search/> */}
+                        </Paper>
                       </TabPanel>
                       <TabPanel value={value} index={2}>
-                      <Paper className={classes.paper}>
-                          Page Three
-                          </Paper>
+                        <Paper className={classes.paper}>
+                          Post a Spot
+                          {/* <Post/> */}
+                        </Paper>
                       </TabPanel>
                       <TabPanel value={value} index={3}>
-                      <Paper className={classes.paper}>
-                          Page Four
-                          </Paper>
+                        <Paper className={classes.paper}>
+                          Profile/Notification
+                          {/* <Profile/> */}
+
+                        </Paper>
                       </TabPanel>
                       <TabPanel value={value} index={4}>
                         <Paper className={classes.paper}>
-                          Page Five
-                          </Paper>
+                            Messages
+                            {/* <Messages/> */}
+                        </Paper>
                       </TabPanel>
                       </Paper>
                     </Grid>

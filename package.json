@@ -2,7 +2,6 @@
   "name": "skatepark-finder-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/build", 
   "engines": {
     "npm": "6.13.7",
     "node": "13.9.0"
